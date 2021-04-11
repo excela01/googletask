@@ -1,0 +1,100 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 1.2em;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+    border-radius: 10px;
+    
+}
+
+main {
+    width: 50%;
+    margin: 10em auto;
+    text-align: center;
+}
+    
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid gray;
+
+}
+
+::placeholder {
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+}
+/* input[type=text] {
+    width: 130px;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+ input[type=text]: :focus{
+     width: 100%;
+ } */
+ 
+.under_buttons_container{
+    margin-top: 1em;
+    border: none;
+}
+
+.under_buttons_container button{
+    padding: 1em;
+    border: none;
+    margin-right: 1em;
+}
+
+footer{
+    background-color: rgb(224, 222, 222);
+    margin-top:  10px;
+}
+
+.footer_top{
+    padding: 1em;
+    
+}
+
+.footer_bottom{
+    padding: 1px;
+    display: flex;
+    
+ justify-content: space-between;
+ border-top: 1px solid rgb(241, 238, 238);
+    
+}
+
+.left a{
+    margin-right:1em;
+    
+}
+
+.right a{
+margin-right: 1em;
+    text-align: center;
+
+}
+
